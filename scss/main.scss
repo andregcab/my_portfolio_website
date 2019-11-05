@@ -29,7 +29,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    background: rgba(lighten($secondary-color, 2), 0.3);
   }
 }
 
@@ -50,7 +50,6 @@ header {
 
 main {
   padding: 4rem;
-  // height: 100%;
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -118,6 +117,11 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 4rem;
+
+  .proj-title {
+    text-align: center;
+  }
 
   img {
     width: 100%;
@@ -164,14 +168,14 @@ main {
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
-    background-color: $secondary-color;
-    color: set-text-color($secondary-color);
+    background-color: lighten($secondary-color, 50);
+    color: set-text-color($primary-color);
   }
 }
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: $secondary-color;
   color: #fff;
 }
 
