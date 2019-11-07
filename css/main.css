@@ -103,9 +103,7 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    height:100%;
-    min-height:100%;}
+    background-size: cover;}
     body#bg-img:after {
       content: "";
       position: absolute;
@@ -270,9 +268,6 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait.jpg);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
       background-size: cover;
       width: 150px;
       height: 150px;
@@ -289,9 +284,6 @@ main {
     grid-template-columns: 1fr; }
   .portrait {
     background: url(../img/portrait.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     width: 150px;
     height: 150px;}
