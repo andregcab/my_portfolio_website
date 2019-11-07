@@ -270,8 +270,7 @@ main {
       background: url(../img/portrait.jpg);
       background-size: cover;
       width: 150px;
-      height: 150px;
-      background-size: cover; }
+      height: 150px;}
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
