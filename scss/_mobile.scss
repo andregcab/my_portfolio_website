@@ -49,6 +49,12 @@
       background-size: cover;
       width: 150px;
       height: 150px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      // height: 100%;
+      // min-height: 100%;
     }
   }
 
@@ -76,5 +82,18 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .portrait {
+    background: url(../img/portrait.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // height: 100%;
+    // min-height: 100%;
   }
 }
