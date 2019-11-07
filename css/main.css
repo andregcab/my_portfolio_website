@@ -101,7 +101,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    display: block;
     position: fixed;
     left: 0;
     top: 0;
