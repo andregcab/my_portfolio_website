@@ -292,4 +292,9 @@ main {
     grid-template-columns: 1fr; }
   body {
     padding-right: 8px;
-  }}
+  }
+  lg-heading {
+    color: white;
+    text-align: center;
+  }
+}
