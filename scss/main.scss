@@ -11,8 +11,8 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  font-family: "Karla", sans-serif;
 }
 
 //headings
@@ -21,6 +21,7 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
+  font-family: "Rubik", sans-serif !important;
 
   &.lg-heading {
     font-size: 6rem;
@@ -85,7 +86,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: $secondary-color 3px solid;
+    border: solid 2px lighten($secondary-color, 25);
   }
 
   .bio {

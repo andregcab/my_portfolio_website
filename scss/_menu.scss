@@ -64,7 +64,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: rgba(darken($primary-color, 5), 0.9);
+    background: rgba(darken($primary-color, 2), 0.97);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -92,7 +92,7 @@
       background: url(../img/portrait.jpg);
       background-size: cover;
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 2px lighten($secondary-color, 25);
     }
   }
 
