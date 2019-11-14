@@ -251,10 +251,9 @@ main {
   #main-footer #iconcredit {
     font-size: 8px; }
 
-/* @media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } 
-} */
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
